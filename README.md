@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 
 - Project Overview
 - Business Problem
@@ -25,7 +25,7 @@
 
 ---
 
-# 📖 Project Overview
+# Project Overview
 
 ## Background
 
@@ -39,7 +39,7 @@ This case study demonstrates how the financing application process can be redesi
 
 ---
 
-# 🎯 Business Problem
+# Business Problem
 
 ## Current Challenges
 
@@ -55,29 +55,29 @@ Finance advisors experience several operational challenges during financing appl
 
 ---
 
-# 🎯 Project Objectives
+#  Project Objectives
 
 The project aims to:
 
-✅ Create a centralized finance application screen
+ Create a centralized finance application screen
 
-✅ Collect all customer information in one place
+ Collect all customer information in one place
 
-✅ Extract information from documents using OCR
+ Extract information from documents using OCR
 
-✅ Automatically submit applications via RPA
+ Automatically submit applications via RPA
 
-✅ Eliminate repetitive manual data entry
+ Eliminate repetitive manual data entry
 
-✅ Improve operational efficiency
+ Improve operational efficiency
 
-✅ Reduce processing time
+ Reduce processing time
 
-✅ Improve customer experience
+ Improve customer experience
 
 ---
 
-# 🚧 Existing Process (As-Is)
+#  Existing Process (As-Is)
 
 Current financing process:
 
@@ -135,7 +135,7 @@ Receive Financing Offers
 
 ---
 
-# 🚀 Future Process (To-Be)
+#  Future Process (To-Be)
 
 Proposed future process:
 
@@ -185,7 +185,7 @@ Customer
 
 ---
 
-# 💡 Proposed Solution
+#  Proposed Solution
 
 The proposed solution consists of three major components.
 
@@ -218,7 +218,7 @@ The advisor no longer needs to enter identical information multiple times.
 
 ---
 
-# 📈 Expected Business Value
+# Expected Business Value
 
 | Business Value | Benefit |
 |---------------|---------|
@@ -231,7 +231,7 @@ The advisor no longer needs to enter identical information multiple times.
 
 ---
 
-# 📦 Project Scope
+#  Project Scope
 
 ## In Scope
 
@@ -253,7 +253,7 @@ The advisor no longer needs to enter identical information multiple times.
 
 ---
 
-# 👥 Stakeholders
+#  Stakeholders
 
 | Stakeholder | Responsibility |
 |-------------|---------------|
@@ -267,7 +267,7 @@ The advisor no longer needs to enter identical information multiple times.
 
 ---
 
-# 👩‍💻 My Role
+#  My Role
 
 As the Business Analyst, I was responsible for:
 
@@ -284,7 +284,7 @@ As the Business Analyst, I was responsible for:
 
 ---
 
-# 📁 Project Deliverables
+#  Project Deliverables
 
 This repository contains:
 
@@ -301,7 +301,7 @@ This repository contains:
 
 ---
 
-# 📂 Repository Structure
+#  Repository Structure
 
 ```text
 automotive-finance-process-automation
@@ -329,7 +329,7 @@ automotive-finance-process-automation
 
 ---
 
-# 🛠 Technologies & Methodologies
+#  Technologies & Methodologies
 
 ### Business Analysis
 
@@ -355,7 +355,7 @@ automotive-finance-process-automation
 
 ---
 
-# 📊 Success Metrics
+#  Success Metrics
 
 Expected improvements:
 
@@ -368,7 +368,7 @@ Expected improvements:
 
 ---
 
-# 🔄 Future Improvements
+#  Future Improvements
 
 Possible future enhancements include:
 
@@ -381,7 +381,7 @@ Possible future enhancements include:
 
 ---
 
-# 📚 Related Documents
+#  Related Documents
 
 Coming soon:
 
@@ -394,7 +394,7 @@ Coming soon:
 
 ---
 
-# ⭐ About This Repository
+#  About This Repository
 
 This repository is part of my Business Analysis portfolio and demonstrates how business analysis techniques can be applied to redesign and automate manual business processes in the automotive finance domain.
 
