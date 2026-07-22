@@ -14,11 +14,15 @@ These rules describe business policies, validations, and operational constraints
 | BR-VEH  | Vehicle      |
 | BR-LOAN | Loan         |
 | BR-CMP  | Campaign     |
+| BR-FIN  | Finance Institution Rules   |
 | BR-OCR  | OCR          |
 | BR-RPA  | RPA          |
 | BR-NOT  | Notification |
 | BR-SEC  | Security     |
+| BR-REP  | Reporting   |
 | BR-VAL  | Validation   |
+| BR-EXC  | Exception Rules  |
+
 
 ## 1. Customer Rules
 
