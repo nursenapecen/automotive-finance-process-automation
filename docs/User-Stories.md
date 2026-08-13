@@ -100,9 +100,13 @@ See *Acceptance-Criteria.md* → AC-001
 ### US-002 – Update Customer Information
 
 •	**Epic:** Customer Management 
+
 •	**Feature:** Customer Registration 
+
 •	**Priority:** Must Have 
+
 •	**Story Points:** 3 
+
 As a **Finance Advisor**,
 **I want to** edit customer information before submitting the application,
 **so that** incorrect or outdated information can be corrected.
@@ -112,9 +116,13 @@ As a **Finance Advisor**,
 ### US-003 – Validate Mandatory Customer Information
 
 •	**Epic:** Customer Management 
+
 •	**Feature:** Customer Validation 
+
 •	**Priority:** Must Have 
+
 •	**Story Points:** 3 
+
 As a **Finance Advisor**,
 **I want to** validate customer information before submitting a financing application,
 **so that** incomplete or incorrect customer data does not proceed to the financing institutions
@@ -124,9 +132,13 @@ As a **Finance Advisor**,
 ### US-004 – Prevent Duplicate Applications
 
 •	**Epic:** Customer Management 
+
 •	**Feature:** Application Validation 
+
 •	**Priority:** Should Have 
+
 •	**Story Points:** 5 
+
 As a **Finance Advisor**,
 **I want to** be notified when a duplicate application exists,
 **so that** I do not submit the same financing request multiple times.
@@ -143,19 +155,25 @@ This Epic covers the management and validation of vehicle information required f
 
 **Epic**
 Vehicle Management
+
 **Feature**
 Vehicle Information
+
 **Priority**
 Must Have
+
 **Story Points**
 5
+
 **Related Business Requirement**
 •	BR-004 
+
 **Related Functional Requirements**
 •	FR-015 
 •	FR-016 
 •	FR-018 
 •	FR-021 
+
 **Related Business Rules**
 •	BR-VEH-001 
 •	BR-VEH-003 
@@ -181,9 +199,13 @@ See *Acceptance-Criteria.md* → AC-010
 ### US-006 – Select Vehicle Type
 
 •	**Epic:** Vehicle Management 
+
 •	**Feature:** Vehicle Validation 
+
 •	**Priority:** Must Have 
+
 •	**Story Points:** 3 
+
 As a **Finance Advisor**,
 **I want to** validate vehicle information before submitting a financing application,
 **so that** the application contains accurate vehicle data.
@@ -193,9 +215,13 @@ As a **Finance Advisor**,
 ### US-007 – Calculate Financing Amount
 
 •	**Epic:** Vehicle Management 
+
 •	**Feature:** Financing Calculation 
+
 •	**Priority:** Must Have 
+
 •	**Story Points:** 5 
+
 As a **Finance Advisor**,
 **I want to** calculate the requested financing amount based on vehicle and customer information,
 **so that** I can prepare an accurate financing application.
@@ -212,18 +238,24 @@ This Epic covers the core financing application process, including finance insti
 
 **Epic**
 Loan Application
+
 **Feature**
 Finance Institution Selection
+
 **Priority**
 Must Have
+
 **Story Points**
 5
+
 **Related Business Requirements**
 •	BR-006 
+
 **Related Functional Requirements**
 •	FR-029 
 •	FR-030 
 •	FR-032 
+
 **Related Business Rules**
 •	BR-LOAN-001 
 •	BR-FIN-001 
@@ -250,9 +282,13 @@ See *Acceptance-Criteria.md* → AC-018
 ### US-009 – Select Loan Campaign
 
 •	**Epic:** Loan Application 
+
 •	**Feature:** Campaign Management 
+
 •	**Priority:** Should Have 
+
 •	**Story Points:** 3 
+
 As a **Finance Advisor**,
 **I want to** select an applicable financing campaign,
 **so that** the customer can receive the relevant financing conditions.
@@ -262,9 +298,13 @@ As a **Finance Advisor**,
 ### US-010 – Review Loan Details
 
 •	**Epic:** Loan Application 
+
 •	**Feature:** Application Review 
+
 •	**Priority:** Must Have 
+
 •	**Story Points:** 3 
+
 As a **Finance Advisor**,
 **I want to** review all application information before submission,
 **so that** I can verify the accuracy of the application.
@@ -275,10 +315,13 @@ As a **Finance Advisor**,
 
 **Epic**
 Loan Application
+
 **Feature**
 Loan Submission
+
 **Priority**
 Must Have
+
 **Story Points**
 8
 
@@ -324,9 +367,13 @@ Application submission initiates the RPA automation workflow.
 ### US-012 – Receive Loan Response
 
 •	**Epic:** Loan Application 
+
 •	**Feature:** Financing Response 
+
 •	**Priority:** Must Have 
+
 •	**Story Points:** 5
+
 As a **Finance Advisor**,
 **I want to** receive financing offers and application results from the selected finance institutions in the centralized platform,
 **so that** I can review the available financing options without checking each finance institution's portal separately.
@@ -340,9 +387,13 @@ This Epic focuses on digitizing customer information from paper-based documents 
 ### US-013 – Upload Customer Documents
 
 •	**Epic:** OCR Processing 
+
 •	**Feature:** Document Management 
+
 •	**Priority:** Must Have 
+
 •	**Story Points:** 5 
+
 As a **Finance Advisor**,
 **I want to** upload customer documents to the financing platform,
 **so that** the required information can be processed digitally.
@@ -399,9 +450,13 @@ See *Acceptance-Criteria.md* → AC-031
 ### US-015 – Validate OCR Results
 
 •	**Epic:** OCR Processing 
+
 •	**Feature:** OCR Validation 
+
 •	**Priority:** Must Have 
+
 •	**Story Points:** 5 
+
 As a **Finance Advisor**,
 **I want to** review and correct OCR-extracted customer information,
 **so that** the financing application contains accurate customer data.
@@ -415,9 +470,13 @@ This Epic covers the exchange of financing application data and responses betwee
 ### US-016 – Send Application to Finance Institutions
 
 •	**Epic:** Finance Institution Integration 
+
 •	**Feature:** Application Submission 
+
 •	**Priority:** Must Have 
+
 •	**Story Points:** 8 
+
 As a **Finance Advisor**,
 **I want to** send a completed financing application to the selected finance institutions,
 **so that** I can obtain financing offers without manually entering the information into each portal.
@@ -427,9 +486,13 @@ As a **Finance Advisor**,
 ### US-017 – Receive Finance Institution Responses
 
 •	**Epic:** Finance Institution Integration 
+
 •	**Feature:** Application Response 
+
 •	**Priority:** Must Have 
+
 •	**Story Points:** 5 
+
 As a **Finance Advisor**,
 **I want to** receive financing responses in the centralized platform,
 **so that** I can review the available offers without checking each finance institution portal separately.
@@ -439,9 +502,13 @@ As a **Finance Advisor**,
 ### US-018 – Retry Failed Integrations
 
 •	**Epic:** Finance Institution Integration 
+
 •	**Feature:** Integration Exception Handling 
+
 •	**Priority:** Could Have 
+
 •	**Story Points:** 5 
+
 As a **Finance Advisor**,
 **I want to** retry a failed finance institution submission,
 **so that** temporary integration failures do not require the entire application to be processed manually.
@@ -456,10 +523,13 @@ This Epic focuses on automating repetitive data entry and application submission
 
 **Epic**
 RPA Automation
+
 **Feature**
 Application Submission
+
 **Priority**
 Must Have
+
 **Story Points**
 8
 
@@ -478,6 +548,7 @@ Must Have
 •	BR-RPA-005 
  
 **User Story**
+
 As a **Finance Advisor**,
 **I want to** automatically submit financing applications to selected finance institutions,
 **so that** I no longer need to manually enter the same application into multiple external systems.
@@ -500,9 +571,13 @@ See *Acceptance-Criteria.md* → AC-041
 ### US-020 – Enter OTP
 
 •	**Epic:** RPA Automation 
+
 •	**Feature:** OTP / SMS Verification 
+
 •	**Priority:** Must Have 
+
 •	**Story Points:** 5 
+
 As a **Finance Advisor**,
 **I want to** enter the customer SMS verification code when requested by the finance institution,
 **so that** the RPA process can continue and complete the financing application.
@@ -512,9 +587,13 @@ As a **Finance Advisor**,
 ### US-021 – Complete Automated Submission
 
 •	**Epic:** RPA Automation 
+
 •	**Feature:** Automated Data Entry 
+
 •	**Priority:** Must Have 
+
 •	**Story Points:** 8 
+
 As a **Finance Advisor**,
 **I want to** have validated application data automatically entered into finance institution portals,
 **so that** repetitive manual data entry is eliminated.
@@ -524,9 +603,13 @@ As a **Finance Advisor**,
 ### US-022 – Handle Failed RPA Executions
 
 •	**Epic:** RPA Automation 
+
 •	**Feature:** Exception Handling 
+
 •	**Priority:** Should Have 
+
 •	**Story Points:** 5 
+
 As a **Finance Advisor**,
 **I want to** be informed when an automated submission fails,
 **so that** I can take the necessary corrective action.
@@ -541,10 +624,13 @@ This Epic provides finance advisors with centralized visibility into financing a
 
 **Epic**
 Application Tracking
+
 **Feature**
 Application Monitoring
+
 **Priority**
 Must Have
+
 **Story Points**
 5
 
@@ -561,6 +647,7 @@ Must Have
 •	BR-REP-001 
  
 **User Story**
+
 As a **Finance Advisor**,
 **I want to** monitor the status of all financing applications from a centralized dashboard,
 **so that** I can quickly identify pending actions and keep customers informed about their application progress.
@@ -582,9 +669,13 @@ See *Acceptance-Criteria.md* → AC-050
 ### US-024 – View Application History
 
 •	**Epic:** Application Tracking 
+
 •	**Feature:** Application History 
+
 •	**Priority:** Should Have 
+
 •	**Story Points:** 3 
+
 As a **Finance Advisor**,
 **I want to** view the history of a financing application,
 **so that** I can understand previous actions and status changes.
@@ -594,9 +685,13 @@ As a **Finance Advisor**,
 ### US-025 – Search Applications
 
 •	**Epic:** Application Tracking 
+
 •	**Feature:** Application Search 
+
 •	**Priority:** Should Have 
+
 •	**Story Points:** 3 
+
 As a **Finance Advisor**,
 **I want to** search financing applications using customer or application information,
 **so that** I can quickly find the application I need.
@@ -611,10 +706,13 @@ This Epic provides centralized reporting and monitoring capabilities for financi
 
 **Epic**
 Reporting
+
 **Feature**
 Application Dashboard
+
 **Priority**
 Should Have
+
 **Story Points**
 5
 
@@ -635,6 +733,7 @@ Should Have
 •	BR-REP-004
  
 **User Story**
+
 As a **Finance Advisor**,
 **I want to** view financing applications and related operational performance information through a centralized dashboard,
 **so that** I can monitor application activity, identify pending or completed applications, and evaluate the status of the financing process without checking multiple sources separately.
@@ -659,9 +758,13 @@ See *Acceptance-Criteria.md* → AC-026
 ### US-027 – Filter Reports
 
 •	**Epic:** Reporting 
+
 •	**Feature:** Report Filtering 
+
 •	**Priority:** Should Have 
+
 •	**Story Points:** 3 
+
 As a **Finance Manager**,
 **I want to** filter financing reports by relevant criteria,
 **so that** I can analyze application activity and operational performance.
@@ -671,9 +774,13 @@ As a **Finance Manager**,
 ### US-028 – Export Reports
 
 •	**Epic:** Reporting 
+
 •	**Feature:** Report Export 
+
 •	**Priority:** Could Have 
+
 •	**Story Points:** 3 
+
 As a **Finance Manager**,
 **I want to** export financing reports,
 **so that** I can perform further analysis and share results with relevant stakeholders.
@@ -687,9 +794,13 @@ This Epic covers notifications related to financing application status changes, 
 ### US-029 – Notify Finance Advisor
 
 •	**Epic:** Notifications 
+
 •	**Feature:** Advisor Notifications 
+
 •	**Priority:** Should Have 
+
 •	**Story Points:** 3 
+
 As a **Finance Advisor**,
 **I want to** receive notifications when an application status changes,
 **so that** I can take the required next action and keep the customer informed.
@@ -699,9 +810,13 @@ As a **Finance Advisor**,
 ### US-030 – Notify Customer
 
 •	**Epic:** Notifications 
+
 •	**Feature:** Customer Notifications 
+
 •	**Priority:** Should Have 
+
 •	**Story Points:** 3 
+
 As a **Customer**,
 **I want to** receive notifications about my financing application,
 **so that** I can stay informed about the progress of my application.
