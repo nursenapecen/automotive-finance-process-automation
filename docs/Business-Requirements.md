@@ -17,13 +17,13 @@ Each institution requires customer information through separate portals.
 
 As a result
 
-same data
+-same data
 
-same documents
+-same documents
 
-same verification
+-same verification
 
-same workflow
+-same workflow
 
 must be repeated several times.
 
@@ -80,17 +80,17 @@ Customer
 
 ## Business Objectives
 
-Reduce manual work
+•	Reduce manual work
 
-Improve operational efficiency
+•	Improve operational efficiency
 
-Increase customer satisfaction
+•	Increase customer satisfaction
 
-Reduce application processing time
+•	Reduce application processing time
 
-Provide centralized monitoring
+•	Provide centralized monitoring
 
-Support future API integrations
+•	Support future API integrations
 
 
 ## Success Metrics
@@ -120,80 +120,83 @@ Support future API integrations
 
 ### In Scope 
 
-Customer Information
-Vehicle Information
-Loan Applications
-OCR
-RPA
-Tracking
-Reporting
+•	Customer Information
+•	Vehicle Information
+•	Loan Applications
+•	OCR
+•	RPA
+•	Tracking
+•	Reporting
 
 ### Out Scope
 
-Credit approval decision
-Risk scoring
-Bank internal processes
-Loan payment
+•	Credit approval decision
+•	Risk scoring
+•	Bank internal processes
+•	Loan payment
 
 
 ## Business Requirements
 
-BR-001
+### BR-001 – Centralized Financing Application
 
-The system shall allow advisors to create financing applications from a single interface.
+The financing application process shall be managed through a centralized interface, enabling finance advisors to manage customer and application information without relying on multiple disconnected sources.
 
-BR-002
+### BR-002 – Customer Information Management
 
-The system shall create unique Application ID.
+The solution shall provide a standardized way to capture, manage, and validate the customer information required for financing applications.
 
-BR-003
+### BR-003 – Vehicle Information Management
 
-The system shall support multiple financial institutions.
+The solution shall support the management of the vehicle information required for financing applications, including brand, model, variant, year, and color.
 
-BR-004
+### BR-004 – Financing Institution Management
 
-The system shall automatically populate customer information using OCR.
+The solution shall support applications to multiple partnered finance institutions through a centralized financing process.
 
-BR-005
+### BR-005 – Digital Document Processing
 
-The system shall trigger RPA after advisor confirmation.
+The solution shall digitize customer information from paper-based documents to reduce manual data entry and improve data availability.
 
-BR-006
+### BR-006 – Automated Data Extraction
 
-The system shall track application status.
+The solution shall use OCR technology to extract relevant customer information from uploaded documents and reduce repetitive manual data entry.
 
-BR-007
+### BR-007 – Financing Application Validation
 
-The system shall trigger automatic system alerts.
+The financing process shall ensure that customer, vehicle, and application information is complete and accurate before an application is submitted to a finance institution.
 
+### BR-008 – Financing Offer Management
+
+The solution shall enable finance advisors to receive and review financing offers and application results from selected finance institutions through a centralized interface.
+
+### BR-009 – Process Automation
+
+The financing application process shall minimize repetitive manual activities by using RPA to transfer validated application information to finance institution portals.
+
+### BR-010 – Application Tracking
+
+The solution shall provide centralized visibility into financing application statuses and histories throughout the application process.
+
+### BR-011 – Operational Reporting
+
+The solution shall provide reporting and monitoring capabilities to support the analysis of financing applications and operational performance.
+
+### BR-012 – Notifications and Alerts
+
+The solution shall provide timely notifications and alerts regarding application status changes, missing information, and relevant process events.
+
+### BR-013 – Operational Efficiency
+
+The solution shall reduce manual processing effort and financing application processing time while improving the productivity of finance advisors.
+
+### BR-014 – Customer Experience
+
+The solution shall reduce customer waiting time and improve the overall financing experience by accelerating the application and offer retrieval process.
 
 ## Business Rule
 
 *The detailed business rules are provided in the business-rules.md document.
-
-BRULE-001
-
-Customer ID is mandatory.
-
-BRULE-002
-
-Only Financial Advisors may approve applications.
-
-BRULE-003
-
-Approval is permitted only when all mandatory documents have been submitted.
-
-BRULE-004
-
-OTP verification is required.
-
-BRULE-005
-
-OCR fields remain editable.
-
-BRULE-006
-
-Financial Instituion selection is mandatory.
 
 
 ## Functional Requirements Categories
@@ -223,11 +226,15 @@ Financial Instituion selection is mandatory.
 
 ## Process Automation 
 
-ERP
+Paper-based Data
 
 ↓
 
 OCR
+
+↓
+
+ERP
 
 ↓
 
@@ -239,8 +246,7 @@ Financial Institution
 
 ↓
 
-OCR
-
+RPA
 ↓
 
 ERP
@@ -254,11 +260,11 @@ Notification
 
 The detailed integration landscape are provided in the integration-landscape.md diagram.
 
-ERP
+OCR
 
 ↓
 
-OCR
+ERP
 
 ↓
 
@@ -274,7 +280,7 @@ Bank C
 
 ↓
 
-Email Service
+Email Notification Service
 
 ↓
 
@@ -289,13 +295,5 @@ Reporting
 | OCR errors     | Manual validation |
 | OTP timeout    | Retry             |
 | Bank downtime  | Queue             |
-
-
-## Traceability Matrix 
-
-| Objective          | BR     | User Story | Test  |
-| ------------------ | ------ | ---------- | ----- |
-| Reduce manual work | BR-001 | US-01      | TC-01 |
-| Faster processing  | BR-005 | US-06      | TC-10 |
 
 
