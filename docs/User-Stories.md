@@ -4,7 +4,7 @@
 
 This document defines the Product Backlog for the Automotive Finance Process Automation project.
 
-The backlog is organized into Epics and Features, providing traceability between Business Requirements, Functional Requirements, Business Rules, Acceptance Criteria, and Test Cases.
+The backlog is organized into Epics and Features, providing traceability between Business Requirements, Functional Requirements, Business Rules and Acceptance Criterias.
 
 ---
 
